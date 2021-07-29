@@ -20,8 +20,8 @@ export default function App() {
       <StatusBar  barStyle='light-content' backgroundColor='#4a4e4d'/>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false}}>
-          <Stack.Screen name={'Feed'} component={Feed} />          
           <Stack.Screen name={'Welcome'} component={Welcome} />   
+          <Stack.Screen name={'Feed'} component={Feed} />          
         </Stack.Navigator>
       </NavigationContainer>
     </View>
