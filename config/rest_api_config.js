@@ -1,0 +1,5 @@
+export const article_url="https://gnews.io/api/v4/top-headlines"
+export const country = "in"
+export const category = "general"
+export const lang = "en"
+export const api_key = "b790b4349b7c7d9ee3d1a2a3db14026d"
